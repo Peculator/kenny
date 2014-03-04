@@ -10,3 +10,5 @@ Features:
 https://launchpad.net/kenny
 
 ![Beispielbilder](overview.png)
+
+Tutorial-Video von Jesús García Gómez: http://www.youtube.com/watch?v=K4Fu9MNidnA
