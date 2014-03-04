@@ -1,0 +1,5 @@
+project = kenny
+lp_id = kenny
+dependencies = 
+version = 12.04
+template = ubuntu-application

@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="topic2">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Sven Kamieniorz</name>
+    <email>svenkamieniorz@gmail.com</email>
+    <years>2012</years>
+  </credit>
+  <desc>How to add a new script</desc>
+</info>
+
+<title>2. Add a New Script</title>
+
+<p>
+Once you have started kenny, you can create new scripts. </p>
+<media type="image" mime="image/png" src="figures/new.png" width="600">
+</media>
+<media type="image" mime="image/png" src="figures/new2.png" width="600">
+</media>
+
+<p>
+If you press apply, and at least on of the switches is turned on, kenny will be added to the autostart. Otherwise it will be removed.
+
+</p>
+<media type="image" mime="image/png" src="figures/enable.png" width="600">
+</media>
+
+<p>Remove kenny from the autostart.
+You can remove this app from the autostart by disable the both export-options and press on apply.
+
+</p>
+
+<media type="image" mime="image/png" src="figures/disable.png" width="600">
+</media>
+<p>
+To the next chapter press<link xref="topic3"> here</link>.
+</p>
+</page>

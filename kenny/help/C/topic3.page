@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="topic3">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Sven Kamieniorz</name>
+    <email>svenkamieniorz@gmail.com</email>
+    <years>2012</years>
+  </credit>
+  <desc>This Chapter shows the integration on kenny in Unity.</desc>
+</info>
+
+<title>3. Using kenny with Ubuntu</title>
+
+<p>You can use kenny in tree ways:</p>
+
+<p>1. Indicator menu</p>
+Once you have started kenny, you can create new scripts. 
+<media type="image" mime="image/png" src="figures/indicator.png" width="300">
+</media>
+
+<p>
+2. Unity Launcher
+</p>
+<media type="image" mime="image/png" src="figures/launcher.png" width="300">
+</media>
+
+<p>3.Unity Dash (I discovered it by chance)
+</p>
+
+<media type="image" mime="image/png" src="figures/dash.png" width="600">
+</media>
+<p>
+To back to the <link xref="index"> contents</link>.
+</p>
+</page>

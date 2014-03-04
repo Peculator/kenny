@@ -1,0 +1,13 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kenny
+Upstream-Contact: Sven Kamieniorz <sven.kamieniorz@gmail.com>
+Source: https://launchpad.net/kenny
+
+Files: *
+Copyright: (C) 2012 &lt;Sven Kamieniorz&gt; &lt;svenkamieniorz@gmail.com&gt;
+Copyright: (C) 2012 &lt;Sven Kamieniorz&gt; &lt;svenkamieniorz@gmail.com&gt;</property>
+Copyright: (C) 2012 &lt;Sven Kamieniorz&gt; &lt;svenkamieniorz@gmail.com&gt;</property><property name="can_focus">False</property>
+Copyright: (C) 2012 <Sven Kamieniorz> <svenkamieniorz@gmail.com>
+License: GPL-3
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/GPL-3 on Debian systems.

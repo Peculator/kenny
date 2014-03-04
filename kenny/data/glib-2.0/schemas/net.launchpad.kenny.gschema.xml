@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="kenny">
+  <schema id="net.launchpad.kenny" path="/net/launchpad/kenny/">
+    <key name="language" type="i">
+      <default>0</default>
+    </key>
+    <key name="path-unity" type="s">
+      <default>"/home"</default>
+    </key>
+    <key name="path-indicator" type="s">
+      <default>"/home"</default>
+    </key>
+    <key name="export-indicator" type="i">
+      <default>1</default>
+    </key>
+    <key name="export-unity" type="i">
+      <default>0</default>
+    </key>
+    <key name="script0" type="s">
+      <default>"Good Morning #-# firefox www.google.de #-# google-chrome www.google.de"</default>
+    </key>
+    <key name="script1" type="s">
+      <default>"Hacking #-# firefox www.google.de #-# google-chrome www.google.de"</default>
+    </key>
+    <key name="script2" type="s">
+      <default>"Project X #-# firefox www.google.de #-# gedit"</default>
+    </key>
+    <key name="script3" type="s">
+      <default>""</default>
+    </key>
+    <key name="script4" type="s">
+      <default>"test"</default>
+    </key>
+  </schema>
+</schemalist>

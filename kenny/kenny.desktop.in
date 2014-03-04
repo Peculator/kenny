@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Kenny
+_Comment=Kenny application
+Categories=GNOME;Utility;
+Exec=/opt/extras.ubuntu.com/kenny/bin/kenny
+Icon=/opt/extras.ubuntu.com/kenny/share/kenny/media/kenny.svg
+Terminal=false
+Type=Application

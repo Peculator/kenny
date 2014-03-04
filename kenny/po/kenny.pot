@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-08 16:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/ui/NewDialog.ui.h:1
+msgid "Add new Script"
+msgstr ""
+
+#: ../data/ui/NewDialog.ui.h:2
+msgid "Name of the new Script"
+msgstr ""
+
+#: ../data/ui/NewDialog.ui.h:3
+msgid "#"
+msgstr ""
+
+#: ../data/ui/NewDialog.ui.h:4
+msgid "Application"
+msgstr ""
+
+#: ../data/ui/NewDialog.ui.h:5
+msgid "Parameter"
+msgstr ""
+
+#: ../kenny/__init__.py:34
+msgid "Show debug messages (-vv debugs kenny_lib also)"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:1 ../kenny.desktop.in.h:1
+msgid "Kenny"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:2
+msgid "_File"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:3
+msgid "_Edit"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:4
+msgid "_Help"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:5
+msgid "Contents"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:6
+msgid "New"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:7
+msgid "Settings"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:8
+msgid ""
+"Export to \n"
+"Unity "
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:10
+msgid ""
+"Export to \n"
+"Indicator"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:12
+msgid "Delete"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:13
+msgid "Apply"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:14
+msgid "Your Scripts"
+msgstr ""
+
+#: ../data/ui/KennyWindow.ui.h:15
+msgid "Status Area"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:1
+msgid "Kennys Preferences"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:2
+msgid "Path to the Unity Icon"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:3
+msgid "Path to the Indicator Icon"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:4
+msgid "Language"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:5
+#: ../data/ui/AboutKennyDialog.ui.h:16
+msgid "TODO"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:6
+msgid "English"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:7
+msgid "Deutsch"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:8
+msgid "Delay"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:9
+msgid "Disable Notification"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:10
+msgid "Path to the notify icon"
+msgstr ""
+
+#: ../data/ui/PreferencesKennyDialog.ui.h:11
+msgid "Disable notify"
+msgstr ""
+
+#: ../data/ui/AboutKennyDialog.ui.h:1
+msgid ""
+"# Copyright (C) 2012 <Sven Kamieniorz> <svenkamieniorz@gmail.com>\n"
+"# This program is free software: you can redistribute it and/or modify it \n"
+"# under the terms of the GNU General Public License version 3, as "
+"published \n"
+"# by the Free Software Foundation.\n"
+"# \n"
+"# This program is distributed in the hope that it will be useful, but \n"
+"# WITHOUT ANY WARRANTY; without even the implied warranties of \n"
+"# MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR \n"
+"# PURPOSE.  See the GNU General Public License for more details.\n"
+"# \n"
+"# You should have received a copy of the GNU General Public License along \n"
+"# with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+msgstr ""
+
+#: ../data/ui/AboutKennyDialog.ui.h:14
+msgid "Copyright (C) 2012 <Sven Kamieniorz> <svenkamieniorz@gmail.com>"
+msgstr ""
+
+#: ../data/ui/AboutKennyDialog.ui.h:15
+msgid "Developed during the Ubuntu App Showdown 2012"
+msgstr ""
+
+#: ../kenny.desktop.in.h:2
+msgid "Kenny application"
+msgstr ""

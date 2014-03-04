@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+%:
+ifneq ($(shell dh -l | grep -xF translations),)
+	dh $@ --with python2,translations
+else
+	dh $@ --with python2
+endif
+
+override_dh_auto_install:
+	dh_auto_install -- --install-scripts=/opt/extras.ubuntu.com/kenny/bin                 --install-data=/opt/extras.ubuntu.com/kenny                 --install-lib=/opt/extras.ubuntu.com/kenny
+
+override_dh_python2:
+	dh_python2 /opt/extras.ubuntu.com/kenny
+
+
+override_dh_install:
+	dh_install
+	mkdir -p debian/kenny/opt/extras.ubuntu.com/kenny/bin
+	if [ -x debian/kenny/opt/extras.ubuntu.com/kenny/kenny/kenny ]; then mv debian/kenny/opt/extras.ubuntu.com/kenny/kenny/kenny debian/kenny/opt/extras.ubuntu.com/kenny/bin; fi
+	if [ -f debian/kenny/opt/extras.ubuntu.com/kenny/share/applications/kenny.desktop ]; then \
+		mkdir -p debian/kenny/usr/share/applications; \
+		mv debian/kenny/opt/extras.ubuntu.com/kenny/share/applications/kenny.desktop debian/kenny/usr/share/applications/extras-kenny.desktop; \
+		rmdir --ignore-fail-on-non-empty debian/kenny/opt/extras.ubuntu.com/kenny/share/applications; \
+		sed -i 's|Exec=[^ ]*|Exec=/opt/extras.ubuntu.com/kenny/bin/kenny|' debian/kenny/usr/share/applications/extras-kenny.desktop; \
+		sed -i 's|Icon=/usr/|Icon=/opt/extras.ubuntu.com/kenny/|' debian/kenny/usr/share/applications/extras-kenny.desktop; \
+	fi
+	grep -RlZ 'import gettext' debian/kenny/* | xargs -0 -r sed -i 's|\(import\) gettext$$|\1 locale|'
+	grep -RlZ 'from gettext import gettext as _' debian/kenny/* | xargs -0 -r sed -i 's|from gettext \(import gettext as _\)|from locale \1|'
+	grep -RlZ "gettext.textdomain('kenny')" debian/kenny/* | xargs -0 -r sed -i "s|gettext\(\.textdomain('kenny')\)|locale\.bindtextdomain('kenny', '/opt/extras.ubuntu.com/kenny/share/locale')\nlocale\1|" 
+	sed -i "s|__kenny_data_directory__ =.*|__kenny_data_directory__ = '/opt/extras.ubuntu.com/kenny/share/kenny/'|" debian/kenny/opt/extras.ubuntu.com/kenny/kenny*/kennyconfig.py
+	sed -i 's|        sys.path.insert(0, opt_path)|\0\n    os.putenv("XDG_DATA_DIRS", "%s:%s" % ("/opt/extras.ubuntu.com/kenny/share/", os.getenv("XDG_DATA_DIRS", "")))|' debian/kenny/opt/extras.ubuntu.com/kenny/bin/kenny
+	if [ -d debian/kenny/opt/extras.ubuntu.com/kenny/share/glib-2.0/schemas ]; then glib-compile-schemas debian/kenny/opt/extras.ubuntu.com/kenny/share/glib-2.0/schemas; fi

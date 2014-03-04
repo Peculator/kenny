@@ -1,0 +1,33 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="topic1">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Sven Kamieniorz</name>
+    <email>svenkamieniorz@gmail.com</email>
+    <years>2012</years>
+  </credit>
+  <desc>Here you will find screenshot and descriptions for your first start</desc>
+</info>
+
+<title>1. Getting Started</title>
+
+<p>
+Adding the kenny launcher to the Unity Quick Launch Menu.
+You have to add the Unity Quick Launcher Symbol by yourself. If you type in 'kenny', you will get two results. Choose the white kenny icon with the lower case 'k'.This provides the access to the scripts. The other one just starts the app.</p>
+<media type="image" mime="image/png" src="figures/adding.png" width="600">
+</media>
+
+<p>
+Starting kenny.
+Start kenny by clicking on one of the kenny icons. A window with an empty table will apear.</p>
+<media type="image" mime="image/png" src="figures/empty.png" width="600">
+</media>
+
+<p>
+To the next chapter press<link xref="topic2"> here</link>.
+</p>
+
+</page>
